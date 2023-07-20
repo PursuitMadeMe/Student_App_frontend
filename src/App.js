@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() =>{
+    async function fetchData(){
+      const res = await fetch('http://localhost:8888')
+      const json = await res.json()
+      console.log(json)
+    }
+    fetchData()
+  }, [])
+  //Component DEBUG in Inspect - is the Component Rendering 
+  console.log('<App /> Rerender!')
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+     <h1>Hello World</h1>
     </div>
   );
 }
