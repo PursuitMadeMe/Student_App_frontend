@@ -1,0 +1,18 @@
+/*  - Style the outterbox of the StudentList Component - line 38 of App.js
+    - Assign height to App.js so the DIV goes all the way to the bottom of the page
+    - Use Borders to verify what section you are styling 
+    */
+
+.App{
+/* divides the page into sections */
+display: grid;
+/* content horizontally */
+justify-content: center;
+/* content vertically */
+align-items: center;
+/* app goes all the way to the bottom of screen*/
+height: 100vh;
+border: 5px dashed green;
+background-color: #eee
+
+}

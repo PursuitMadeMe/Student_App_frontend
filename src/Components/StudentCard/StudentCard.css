@@ -1,0 +1,53 @@
+/*  - StudentCard is each Student info card
+    - StudentCard DIV is the info section for each Student
+    - Use Borders to verify what section you are styling 
+    - Google Fonts - search the Font Style and choose a sizing number - open Selected family Rubix Cube - Copy @import - Copy and Paste to Index.js */
+
+.StudentCard{
+    display: grid;
+    /* breaks each Student section into parts*/
+    grid-template-columns: 100px 1fr;
+     /* give space between the Pic and the info section DIV */
+    gap: 10px;
+     /* give space between the Pic and the left border */
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    border: 3px dashed red;
+}
+
+.StudentCard div{
+    border: 3px dashed brown;
+
+}
+
+.StudentCard__avatar {
+    /* break the avatar DIV into sections - to center the picture */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.StudentCard__avatar img{
+    width: 100px;
+    border: 1px solid #ccc;
+     /* Makes the border a circle */
+    border-radius: 100%;
+}
+
+.StudentCard__info h1{
+    color: orange;
+    /* Removes the space between the top of page and the H1 name */
+    margin-top: 0;
+     /* Make H1 text all CAPITAL letters */
+    text-transform: uppercase;
+}
+
+.StudentCard__info ul{
+  /* Move student info underneath H1 Name */
+    padding-inline-start: 16px;
+    color: #777;
+}
+.StudentCard__info li{
+/* Removes the bullet points from the list*/
+list-style-type: none;
+}

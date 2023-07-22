@@ -1,0 +1,12 @@
+/*  - Style the DIV of Student Names and Info from line 16 in StudentList Component
+    -  Use Borders to verify what section you are styling */
+
+.StudentList{
+    width: 60vh;
+    height: 80vh;
+    /* content spills out the DIV vertically - make it scrollable */
+    overflow-y: scroll;
+    border: 3px dotted blue;
+    background-color: #fff;
+    border-radius: 10px;
+}
