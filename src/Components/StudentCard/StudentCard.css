@@ -12,11 +12,9 @@
      /* give space between the Pic and the left border */
     padding: 15px;
     border-bottom: 1px solid #eee;
-    border: 3px dashed red;
 }
 
 .StudentCard div{
-    border: 3px dashed brown;
 
 }
 

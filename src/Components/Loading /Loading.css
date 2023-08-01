@@ -1,0 +1,11 @@
+.Loading {
+  /* LOADING message in the CENTER of the page - instead of the TOP - unless CONTAINER Component is given Conditional ClassNames  */
+  
+  /* height: 99%;
+  display: grid; */
+   /* horizontal center */
+   /* align-items: center; */
+   /* vertical center  */
+   /* justify-content: center; */
+  
+}

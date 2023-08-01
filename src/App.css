@@ -12,7 +12,6 @@ justify-content: center;
 align-items: center;
 /* app goes all the way to the bottom of screen*/
 height: 100vh;
-border: 5px dashed green;
 background-color: #eee
 
 }

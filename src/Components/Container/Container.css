@@ -1,0 +1,15 @@
+.Container {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 5px;
+  background-color: #ffff;
+   /* content spills out the DIV vertically - make it scrollable */
+   overflow-y: scroll;
+}
+
+/* This modifier will center ALL items for the Component children */
+.Container--center{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
